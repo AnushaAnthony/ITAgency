@@ -1,0 +1,891 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+.nav-bar{
+    background-color: #00000080;
+
+    min-height: 10%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.circle{
+    width: 34px;
+    height: 34px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    position: relative;
+    left: 22px;
+    top: 16px;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    cursor:pointer ;
+    color: #FFFFFF;
+    
+}
+.nav-bar ul li  a{
+    text-decoration: none;
+   color: white;
+}
+.nav-bar ul li a.active{
+    color: red;
+}
+.nav-bar ul li a:hover{
+    color:yellow;
+    
+}
+.mobile-nav{
+    display: none;
+}
+.heading-1{
+    text-align: center;
+}
+.main-head{
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+line-height: 75px;
+text-align: left;
+font-style: normal;
+}
+.rectangle-line{
+    height: 5px;
+    background-color: grey;
+    width:80px;
+    margin-left:700px;
+    margin-bottom: 20px;
+}
+.heading-1 p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+   
+    width: 407px;
+    margin-left:530px;
+
+}
+.box-1 ,.box-4{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding:50px;
+}
+.box-1 img ,.box-4 img{
+    position: relative;
+    margin-top: 30px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 80px;
+}
+.box-2 img , .box-3 img{
+    width:100%;
+    height: 100%;
+}
+.call{
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 500;
+line-height: 36.96px;
+text-align: center;
+margin: 20px 0px;
+}
+.support{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.1px;
+text-align: center;
+
+}
+.lineimage{
+    margin-left: 735px;
+}
+.line2 {
+    position: relative;
+    top: 47px;
+}
+.get{
+    font-family: Poppins;
+font-size: 50px;
+font-weight: 600;
+line-height: 57.75px;
+text-align: center;
+margin-left: 612px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+.leftimage img{
+    width:100%;
+    height: 100%;
+}
+.rightform{
+    background-color: black;
+    padding: 30px;
+}
+label{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 20.79px;
+color: white;
+display: block;
+}
+td{
+    padding: 30px 0px;
+}
+label{
+    margin-bottom: 20px;
+}
+.name input{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+}
+.phone{
+    position: relative;;
+    left:40px
+}
+.phone input{
+    width: 290px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+input[type="email"]{
+    width: 210%;
+    height: 60px;
+    border-radius: 20px;
+    display: block;
+}
+.message input{
+    width: 210%;
+    height: 150px;
+    border-radius: 20px;
+    display: block;
+}
+.button p{
+    padding:20px;
+    border-radius: 10px;
+    background-color: #FF7A00;
+    color: black;
+    display: inline;
+    position: relative;
+    top:42px;
+}
+input{
+    font-family: Poppins;
+font-size:25px;
+font-weight: 500;
+line-height: 20.79px;
+}
+.footer .triangle{
+    width: 100%;
+    padding-top: 100px;
+}
+.content-footer{
+z-index: 1;
+margin-top: -200px;
+text-align: center;
+}
+.redcircle{
+    position: relative;
+    top:-143px;
+}
+.lorem{
+    font-family: Poppins;
+font-size: 41px;
+font-weight: 700;
+line-height: 47.35px;
+text-align: center;
+position: relative;
+top:-85px;
+color: white;
+}
+.iconlogo{
+    position: relative;
+    top:-60px;
+}
+.lineimage{
+    position: relative;
+    top:36px;
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    .mobile-nav{
+        display: none;
+    }
+    
+    .rectangle-line {        
+      
+        margin-left: 470px;
+      
+    }
+    .heading-1 p {
+        
+        margin-left: 314px;
+    }
+
+.header-2{
+    margin-left:-227px;
+}
+.rightform {
+    background-color: black;
+    padding: 30px;
+    width: 511px;
+}
+.name input {
+    width: 190px;
+}
+
+.phone input {
+    width: 190px;
+}
+.phone {
+    position: relative;
+    left: 8px;
+}
+input[type="email"] {
+    width: 179%;
+}
+.message input {
+    width: 179%;
+}
+td{
+    padding: 11px 0px;
+}
+label {
+    margin-bottom: 1px;
+}
+.line-3 {
+    position: relative;
+    top: 36px;
+    left: -218px;
+}
+.redcircle {
+    position: relative;
+    top: -57px;
+    width: 78px;
+}
+.lorem {
+   
+    top: -26px;
+   
+}
+.iconlogo {
+    position: relative;
+    top: -19px;
+}
+}
+ @media screen and (min-width:427px)and (max-width:768px){
+    
+    .mobile-nav{
+        display: none;
+    }
+    
+        .rectangle-line {        
+          
+            margin-left: 340px;
+          
+        }
+        .heading-1 p {
+            
+            margin-left: 183px;
+        }
+    
+    .header-2{
+        margin-left: -358px;
+    }
+    .rightform {
+        background-color: black;
+        padding: 30px;
+        width: 511px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+    }
+    .rightform {
+        background-color: black;
+        padding: 30px;
+        width: 762px;
+        height: 742px;
+    }
+    .grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 15px;
+        margin-top: 50px;
+    }
+   
+    .line-3 {
+        position: relative;
+        top: 36px;
+        left: -218px;
+    }
+    .redcircle {
+        position: relative;
+        top: -57px;
+        width: 78px;
+    }
+    .lorem {
+       
+        top: -26px;
+       
+    }
+    .iconlogo {
+        position: relative;
+        top: -19px;
+    }
+    
+.footer .triangle {
+    width: 100%;
+    padding-top: 100px;
+    height: 304px;
+    
+ }
+ .line-3 {
+    position: relative;
+    top: 36px;
+    left: -351px;
+}
+ }
+ @media screen and (min-width:377px) and (max-width:426px){
+  
+        .nav-bar ul li {
+            display: none;
+        }
+    
+        .mobile-nav {
+            display: flex;
+    
+        }
+    
+        .mobile-nav span {
+    
+            
+                font-size: 60px;
+                cursor: pointer;
+                float: right;
+                position: relative;
+                left: 720px;
+                top: -153px;
+                font-size: 106px;
+        }
+    
+        .sidenav {
+            height: 600px;
+            position: fixed;
+            z-index: 1;
+            top: 0px;
+            right: 0;
+            background-color:grey;
+            width: 0;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+    
+        .sidenav a {
+            padding: 28px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 65px;
+            color: #f1f1f1;
+            display: block;
+            transition: 0.3s;
+            text-align: center;
+        }
+    
+        .sidenav a:hover {
+            color: #f1f1f1;
+            background-color: #14cedf;
+        }
+    
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 55px;
+            font-size: 90px;
+            margin-left: 50px;
+        }
+        .nav-bar {
+            background-color: #00000080;
+            min-height: 26%;
+            width: 922px;
+        }
+        .circle {
+            position: relative;
+            left: 61px;
+            top: 46px;
+        width: 86px;
+        height: 86px;
+    } 
+    
+    .section-1{
+     
+        width: 934px;
+    }
+    .main-head {
+        font-family: Poppins;
+        font-size: 61px;
+        position: relative;
+        top: -65px;
+        font-weight: 700;
+        line-height: 75px;
+        text-align: left;
+        font-style: normal;
+    }
+    .rectangle-line {
+        
+        margin-left: 425px;
+       
+    }
+    .heading-1 p {
+        
+        margin-left: 145px;
+        font-family: Poppins;
+        font-size: 51px;
+        font-weight: 300;
+        line-height: 52px;
+        width: 657px;
+    }
+    .grid-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 51px;
+        padding: 107px
+    }
+    
+    .section-2 {
+       
+        width: 926px;
+    }
+    
+    .section-2 .header-2 {
+        position: relative;
+        left: -268px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 109px;
+    }
+    .rightform {
+        background-color: black;
+        padding: 128px;
+    }
+    label {
+        font-family: Poppins;
+        font-size: 33px;
+        font-weight: 500;
+        line-height: 20.79px;
+        color: white;
+        display: block;
+    }
+    
+    .button p {
+        
+        font-size: 34px;
+    }
+    .footer {
+        width: 927px;
+        position: relative;
+        top: -82px;
+    }
+    .line-3 {
+        margin-left: 466px;
+        position: relative;
+        top: 131px;
+    }
+    .footer .triangle {
+        width: 100%;
+        padding-top: 256px;
+    }
+    .footer .triangle {
+        width: 100%;
+        padding-top: 256px;
+        height: 655px;
+    }
+    .redcircle {
+        position: relative;
+        top: -251px;
+    }
+    .lorem {
+        font-family: Poppins;
+        font-size: 67px;
+       
+        top: -149px;
+    }
+    
+    .iconlogo {
+        position: relative;
+        top: -109px;
+        width: 278px;
+    }
+    
+ }
+ @media screen and (min-width:321px) and (max-width:376px) {
+   
+        .nav-bar ul li {
+            display: none;
+        }
+    
+        .mobile-nav {
+            display: flex;
+    
+        }
+    
+        .mobile-nav span {
+    
+            
+                font-size: 60px;
+                cursor: pointer;
+                float: right;
+                position: relative;
+                left: 720px;
+                top: -153px;
+                font-size: 106px;
+        }
+    
+        .sidenav {
+            height: 600px;
+            position: fixed;
+            z-index: 1;
+            top: 0px;
+            right: 0;
+            background-color:grey;
+            width: 0;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+    
+        .sidenav a {
+            padding: 28px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 65px;
+            color: #f1f1f1;
+            display: block;
+            transition: 0.3s;
+            text-align: center;
+        }
+    
+        .sidenav a:hover {
+            color: #f1f1f1;
+            background-color: #14cedf;
+        }
+    
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 55px;
+            font-size: 90px;
+            margin-left: 50px;
+        }
+        .nav-bar {
+            background-color: #00000080;
+            min-height: 26%;
+            width: 922px;
+        }
+        .circle {
+            position: relative;
+            left: 61px;
+            top: 46px;
+        width: 86px;
+        height: 86px;
+    } 
+    
+    .section-1{
+     
+        width: 934px;
+    }
+    .main-head {
+        font-family: Poppins;
+        font-size: 61px;
+        position: relative;
+        top: -65px;
+        font-weight: 700;
+        line-height: 75px;
+        text-align: left;
+        font-style: normal;
+    }
+    .rectangle-line {
+        
+        margin-left: 425px;
+       
+    }
+    .heading-1 p {
+        
+        margin-left: 145px;
+        font-family: Poppins;
+        font-size: 51px;
+        font-weight: 300;
+        line-height: 52px;
+        width: 657px;
+    }
+    .grid-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 51px;
+        padding: 107px
+    }
+    
+    .section-2 {
+       
+        width: 926px;
+    }
+    
+    .section-2 .header-2 {
+        position: relative;
+        left: -268px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 109px;
+    }
+    .rightform {
+        background-color: black;
+        padding: 128px;
+    }
+    label {
+        font-family: Poppins;
+        font-size: 33px;
+        font-weight: 500;
+        line-height: 20.79px;
+        color: white;
+        display: block;
+    }
+    
+    .button p {
+        
+        font-size: 34px;
+    }
+    .footer {
+        width: 927px;
+        position: relative;
+        top: -82px;
+    }
+    .line-3 {
+        margin-left: 466px;
+        position: relative;
+        top: 131px;
+    }
+    .footer .triangle {
+        width: 100%;
+        padding-top: 256px;
+    }
+    .footer .triangle {
+        width: 100%;
+        padding-top: 256px;
+        height: 655px;
+    }
+    .redcircle {
+        position: relative;
+        top: -251px;
+    }
+    .lorem {
+        font-family: Poppins;
+        font-size: 67px;
+       
+        top: -149px;
+    }
+    
+    .iconlogo {
+        position: relative;
+        top: -109px;
+        width: 278px;
+    }
+    
+ }
+@media screen and (max-width:320px) {
+    .nav-bar ul li {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+
+    }
+
+    .mobile-nav span {
+
+        
+            font-size: 60px;
+            cursor: pointer;
+            float: right;
+            position: relative;
+            left: 720px;
+            top: -153px;
+            font-size: 106px;
+    }
+
+    .sidenav {
+        height: 600px;
+        position: fixed;
+        z-index: 1;
+        top: 0px;
+        right: 0;
+        background-color:grey;
+        width: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidenav a {
+        padding: 28px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 65px;
+        color: #f1f1f1;
+        display: block;
+        transition: 0.3s;
+        text-align: center;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+        background-color: #14cedf;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 55px;
+        font-size: 90px;
+        margin-left: 50px;
+    }
+    .nav-bar {
+        background-color: #00000080;
+        min-height: 26%;
+        width: 922px;
+    }
+    .circle {
+        position: relative;
+        left: 61px;
+        top: 46px;
+    width: 86px;
+    height: 86px;
+} 
+
+.section-1{
+ 
+    width: 934px;
+}
+.main-head {
+    font-family: Poppins;
+    font-size: 61px;
+    position: relative;
+    top: -65px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    font-style: normal;
+}
+.rectangle-line {
+    
+    margin-left: 425px;
+   
+}
+.heading-1 p {
+    
+    margin-left: 145px;
+    font-family: Poppins;
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 52px;
+    width: 657px;
+}
+.grid-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 51px;
+    padding: 107px
+}
+
+.section-2 {
+   
+    width: 926px;
+}
+
+.section-2 .header-2 {
+    position: relative;
+    left: -268px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 109px;
+}
+.rightform {
+    background-color: black;
+    padding: 128px;
+}
+label {
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 20.79px;
+    color: white;
+    display: block;
+}
+
+.button p {
+    
+    font-size: 34px;
+}
+.footer {
+    width: 927px;
+    position: relative;
+    top: -82px;
+}
+.line-3 {
+    margin-left: 466px;
+    position: relative;
+    top: 131px;
+}
+.footer .triangle {
+    width: 100%;
+    padding-top: 256px;
+}
+.footer .triangle {
+    width: 100%;
+    padding-top: 256px;
+    height: 655px;
+}
+.redcircle {
+    position: relative;
+    top: -251px;
+}
+.lorem {
+    font-family: Poppins;
+    font-size: 67px;
+   
+    top: -149px;
+}
+
+.iconlogo {
+    position: relative;
+    top: -109px;
+    width: 278px;
+}
+}
